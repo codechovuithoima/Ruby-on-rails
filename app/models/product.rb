@@ -1,6 +1,6 @@
-# class Product < ApplicationRecord
-# end
 class Product < ApplicationRecord
-     validates :name, presence: true
-   end
+  has_rich_text :description
+  validates :name, presence: true
+end
+
    
